@@ -31,6 +31,14 @@ jobs:
           unzip -q godot.zip
           chmod +x Godot_v4.7.2-stable_linux.x86_64
 
+      - name: Import project and register script classes
+        run: |
+          ./Godot_v4.7.2-stable_linux.x86_64 \
+            --headless \
+            --editor \
+            --quit \
+            --path .
+
       - name: Run smoke test
         run: |
           ./Godot_v4.7.2-stable_linux.x86_64 \
