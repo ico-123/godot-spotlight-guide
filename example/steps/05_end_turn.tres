@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SpotlightGuide_Step" format=3]
+
+[ext_resource type="Script" path="res://addons/spotlight_guide/guide_step.gd" id="1_t8aws"]
+
+[resource]
+script = ExtResource("1_t8aws")
+title = "End the turn"
+body = "Completed guides are stored in a local ConfigFile. The finished signal is ready for a game-specific save system."
+target_path = NodePath("EndTurnButton")
+placement = "above"

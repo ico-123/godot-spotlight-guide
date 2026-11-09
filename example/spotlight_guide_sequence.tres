@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="SpotlightGuide_Sequence" format=3]
+
+[ext_resource type="Script" path="res://addons/spotlight_guide/guide_sequence.gd" id="1_pr6xo"]
+[ext_resource type="Script" path="res://addons/spotlight_guide/guide_step.gd" id="2_ljex1"]
+[ext_resource type="Resource" path="res://example/steps/01_settings.tres" id="3_4gtui"]
+[ext_resource type="Resource" path="res://example/steps/02_objective.tres" id="4_rk7wy"]
+[ext_resource type="Resource" path="res://example/steps/03_inventory.tres" id="5_rfreu"]
+[ext_resource type="Resource" path="res://example/steps/04_build.tres" id="6_datww"]
+[ext_resource type="Resource" path="res://example/steps/05_end_turn.tres" id="7_d51h5"]
+
+[resource]
+script = ExtResource("1_pr6xo")
+id = &"demo_first_run"
+display_name = "First Run"
+steps = Array[ExtResource("2_ljex1")]([ExtResource("3_4gtui"), ExtResource("4_rk7wy"), ExtResource("5_rfreu"), ExtResource("6_datww"), ExtResource("7_d51h5")])

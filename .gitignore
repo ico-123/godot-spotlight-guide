@@ -1,0 +1,23 @@
+# Godot-generated data
+.godot/
+
+# Local builds and test output
+builds/
+*.log
+*.tmp
+*_export_templates.tpz
+export_templates_tail.bin
+
+# Commercial/store material is intentionally not part of the public repository.
+store/
+
+# Internal working notes
+PROJECT_STATUS.md
+SESSION_CHECKPOINT.md
+docs/QA_REPORT_0.9.0.md
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

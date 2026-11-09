@@ -1,0 +1,53 @@
+name: Bug report
+description: Report a reproducible problem with Spotlight Guide.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing issues first. Remove private project data from
+        screenshots and logs before submitting.
+  - type: input
+    id: godot-version
+    attributes:
+      label: Godot version
+      placeholder: "4.7.2 stable"
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Operating system and renderer
+      placeholder: "Windows 11, gl_compatibility"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include scene structure, target paths and relevant scripts.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste complete errors and warnings from Godot's Output panel.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I tested the latest version.
+          required: true
+        - label: I searched existing issues.
+          required: true

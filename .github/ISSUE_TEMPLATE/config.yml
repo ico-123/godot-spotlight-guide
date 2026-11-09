@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Godot documentation
+    url: https://docs.godotengine.org/
+    about: Ask general Godot questions in the official community.

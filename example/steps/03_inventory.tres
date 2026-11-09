@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SpotlightGuide_Step" format=3]
+
+[ext_resource type="Script" path="res://addons/spotlight_guide/guide_step.gd" id="1_vi1ud"]
+
+[resource]
+script = ExtResource("1_vi1ud")
+title = "Manage your supplies"
+body = "Inventory items can be inspected before moving. This guide pauses gameplay so the player cannot double-submit actions."
+target_path = NodePath("InventoryPanel")
+placement = "left"

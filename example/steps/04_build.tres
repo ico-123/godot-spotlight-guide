@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SpotlightGuide_Step" format=3]
+
+[ext_resource type="Script" path="res://addons/spotlight_guide/guide_step.gd" id="1_uift1"]
+
+[resource]
+script = ExtResource("1_uift1")
+title = "Build when you are ready"
+body = "Build costs coins. The spotlight tracks this button even after the window changes size."
+target_path = NodePath("BuildButton")
+placement = "above"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SpotlightGuide_Step" format=3]
+
+[ext_resource type="Script" path="res://addons/spotlight_guide/guide_step.gd" id="1_cs50s"]
+
+[resource]
+script = ExtResource("1_cs50s")
+title = "Find your settings"
+body = "Settings live in the top-left corner. Use them to switch themes, audio and display options without leaving the map."
+target_path = NodePath("SettingsButton")
+placement = "right"

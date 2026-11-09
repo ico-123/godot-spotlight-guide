@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SpotlightGuide_Step" format=3]
+
+[ext_resource type="Script" path="res://addons/spotlight_guide/guide_step.gd" id="1_vuytm"]
+
+[resource]
+script = ExtResource("1_vuytm")
+title = "Read the current objective"
+body = "The map panel always shows the active objective and the next location to explore."
+target_path = NodePath("MapPanel")
+placement = "right"
